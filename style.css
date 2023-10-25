@@ -133,9 +133,9 @@ nav {
 
 main,
 section {
-  margin: 15px 10px;
+  margin: 0px 10px;
   padding: 10px 0;
-  opacity: 0;
+
   transform: translateY(50px);
   transition: all 1s ease-in-out;
 }
@@ -161,11 +161,8 @@ section.visible {
 }
 
 .banner1 {
-  /* display: flex; */
-  /* flex-direction: column; */
   align-items: center;
   text-align: center;
-  /* flex: 1; */
   padding: 50px;
   width: auto;
 }
@@ -177,13 +174,14 @@ section.visible {
 
 .tools {
   color: #8b6c5c;
+  text-align: center;
 }
 .ul {
   display: flex;
   justify-content: space-evenly;
 }
 ul div {
-  border: #7a7a52 1px solid;
+  border: #77aacc 1px solid;
   padding: 10px;
   width: 350px;
   margin: 10px;
@@ -196,11 +194,22 @@ ul div li {
 
 .skills {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .skills li {
-  padding: 10px;
+  background-color: #77aacc;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  transform: scale(0.95);
+  transition: transform 0.3s ease-in-out;
+}
+.skills li:hover {
+  transform: scale(1.05);
 }
 
 .title {
@@ -209,11 +218,11 @@ ul div li {
 h2 {
   text-align: center;
 }
-.project-section,
+/* .project-section,
 .tools {
   margin: 0 10px;
   padding: 0 10px;
-}
+} */
 .projects {
   display: flex;
   justify-content: space-evenly;
@@ -463,6 +472,9 @@ button:hover {
   .banner1 {
     width: 100%;
     text-align: left;
+  }
+  .tools{
+    margin-top: 500px;
   }
 
   .profile-picture {

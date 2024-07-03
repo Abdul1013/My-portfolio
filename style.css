@@ -17,10 +17,13 @@ body {
     overflow: hidden;
 }
 
-a{
+ a{
     color: #9ba8ab;
     text-decoration: none;
     /* list-style-type: none; */
+}
+li {
+    list-style-type: none;
 }
 header {
     background: #333;
@@ -28,6 +31,11 @@ header {
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #77aacc 3px solid;
+}
+header.h1{
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
 }
 
 header .container {
@@ -43,19 +51,14 @@ header .container {
 }
 
 main {
-    margin-left: 5px;
+    margin: 0px 5px;
     padding: 20px 0;
 }
 h4{
     background-color: #4a5c6a;
-}
-.goals h4{
-    text-decoration: underline;
     font-weight: bolder;
 }
-.goals ul {
-    list-style-type: none;
-}
+
 
 .goals ul li {
     background: #77aacc;
@@ -73,7 +76,7 @@ footer {
     border-top: #77aacc 3px solid;
 }
 
-.social-links {
+.social-links  {
     list-style-type: none;
 }
 

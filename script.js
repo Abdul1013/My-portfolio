@@ -1,10 +1,20 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const updateTime = () => {
+
+function updateDateTime() {
+ 
+    const now = new Date();
+    const currentDateTime = now.toLocaleString();
+    document.querySelector('#datetime').textContent = currentDateTime;
+  }
+  setInterval(updateDateTime, 1000);
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const updateDay = () => {
         const now = new Date();
-        document.querySelector('[data-testid="currentTimeUTC"]').textContent = now.toUTCString();
-        document.querySelector('[data-testid="currentDay"]').textContent = now.toLocaleDateString('en-US', { weekday: 'long' });
+        const options = { weekday: 'long' }; 
+        const currentDay = now.toLocaleDateString('en-US', options); 
+
+        document.querySelector('[data-testid="currentDay"]').textContent = currentDay;
     };
 
-    updateTime();
-    setInterval(updateTime, 1000);
+    updateDay(); 
 });

@@ -43,6 +43,9 @@ header .container {
     align-items: center;
     justify-content: space-between;
 }
+nav{
+    display: flex;
+}
 
 .profile-picture {
     width: 50px;

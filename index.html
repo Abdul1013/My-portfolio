@@ -9,42 +9,50 @@
 <body>
     <header>
         <div class="container">
-            <img src="profile picture.jpg" alt="Profile Picture" data-testid="slackprofilepicture" class="profile-picture">
+            
             <h1 data-testid="slackname">Abdulthedev</h1>
+            <div>
+                <nav>
+    
+                    <div class="hamburger" data-testid="hamburger-menu">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                        
+                    <ul class="nav-links">
+                        <li><a href="#goals">Goals</a></li>
+                        <li><a href="">Skills</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">Experience</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div>
-            <nav>
-
-                <div class="hamburger" data-testid="hamburger-menu">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-                    
-                <ul class="nav-links">
-                    <li><a href="#goals">Goals</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Experience</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Blog</a></li>
-                </ul>
-            </nav>
-        </div>
+        
     </header>
     <main>
-        <section id="time-info">
+        <section id="time-info" class="datetime">
             <p>Current Time (UTC): <span id="datetime" data-testid="currentTimeUTC"></span></p>
             <p>Today is: <span id="current-day" data-testid="currentDay"></span></p>
             
         </section>
 
-        <section class="about">
-            <h1>
-                HI <br>  <h3>I am Abdulrasheed Olabanji </h3>
-                <h5> As an undergraduate software engineer with a passion for technology, I leverage my skills in coding and problem-solving to tackle real-world challenges. I am dedicated to bringing innovative ideas to life, continuously learning, and contributing to impactful projects in the tech industry</h5>
-            </h1>
-        </section>
+        <div class="banner">
+            <section class="about">
+                <h1>
+                    <img src="profile picture.jpg" alt="Profile Picture" data-testid="slackprofilepicture" class="profile-picture">
+                    HI there <br>  <h3>I am Abdulrasheed Olabanji </h3>
+                    DESIGN*DEVELOP*INSPIRE
+                    <h5> As an undergraduate software engineer with a passion for technology, I leverage my skills in coding and problem-solving to tackle real-world challenges.</h5>
+                    <Button><a href="">HIRE ME</a></Button>
+                    <Button><a href="">Download CV</a></Button>
+                </h1>
+            </section>
+        </div>
+        
 
         <section class="skills">
             <h4>Skills/Languages</h4>

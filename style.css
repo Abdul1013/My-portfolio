@@ -73,9 +73,9 @@ header .container {
     margin: 5px 0;
 }
 .profile-picture {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
 }
 
 main {
@@ -90,6 +90,8 @@ main {
     margin: 5px;
     border: 2px dotted burlywood;
     text-align: center;
+    display: flex;
+    align-items: center;
 }  
 
 h4{

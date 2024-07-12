@@ -17,7 +17,7 @@ body {
     overflow: hidden;
 }
 
- a{
+a{
     color: #9ba8ab;
     text-decoration: none;
 }
@@ -87,13 +87,47 @@ main {
     border-radius: 15%;
 }
 .banner{
-    margin: 5px;
     border: 2px dotted burlywood;
-    text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* height: 100vh; */
+    /* background-color: #f0f0f0; */
+    padding: 20px;
 }  
+.banner1{
+    display: flex;
+    flex: 1;
+}
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+}
 
+button {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
 h4{
     background-color: #4a5c6a;
     font-weight: bolder;

@@ -4,111 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header>
         <div class="container">
-            
-            <h1 data-testid="slackname">Abdulthedev</h1>
+            <h1 data-testid="slackname">{Abdulthedev}</h1>
             <div>
                 <nav>
-    
                     <div class="hamburger" data-testid="hamburger-menu">
                         <div class="line"></div>
                         <div class="line"></div>
                         <div class="line"></div>
                     </div>
-                        
                     <ul class="nav-links">
-                        <li><a href="#goals">Goals</a></li>
-                        <li><a href="">Skills</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">Experience</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Blog</a></li>
+                        <li><a href="#goals">Home</a></li>
+                        <!-- <li><a href="#">Skills</a></li> -->
+                        <li><a href="#">Projects</a></li>
+                        <!-- <li><a href="#">Experience</a></li> -->
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
-        
     </header>
     <main>
         <section id="time-info" class="datetime">
             <p>Current Time (UTC): <span id="datetime" data-testid="currentTimeUTC"></span></p>
             <p>Today is: <span id="current-day" data-testid="currentDay"></span></p>
-            
         </section>
 
         <section class="about">
-         
+            <h1 class="title">DESIGN*DEVELOP*INSPIRE</h1>
             <div class="banner">
-                <h1 class="title">DESIGN*DEVELOP*INSPIRE</h1>
-                <div class="banner1"><img src="profile picture.jpg" alt="Profile Picture" data-testid="slackprofilepicture" class="profile-picture"></div>
                 <div class="banner1">
-                    <h1>
-                        HI there <br>  <h3>I am Abdulrasheed Olabanji </h3>
-                        <h5> As an undergraduate software engineer with a passion for technology, I leverage my skills in coding and problem-solving to tackle real-world challenges.</h5>
-                    </h1>
-                    <Button><a href="">HIRE ME</a></Button>
-                <Button><a href="">Download CV</a></Button>
-                </div>  
-            </div> 
+                    <img src="profile picture.jpg" alt="Profile Picture" data-testid="slackprofilepicture" class="profile-picture">
+                </div>
+                <div class="banner1">
+                    <h1>(HI there)</h1>
+                    <h3>I am Abdulrasheed Olabanji</h3>
+                    <h5> As an undergraduate software engineering student 👨🏾‍💻 with a passion for technology, I leverage my skills in coding and problem-solving to tackle real-world challenges. <br>
+                        I’m enthusiastic about AI 💻 with a passion for creating intelligent systems and exploring the potential of artificial intelligence. <br>
+                        I hope my journey in AI will be fueled by curiosity to understand how machines can learn and make decisions🤖</h5>
+                    <button><a href="#">HIRE ME</a></button>
+                    <button><a href="my resume - 2024-04-11 17_39_57.pdf" download="">Download CV</a></button>
+                </div>
+            </div>
         </section>
-    
-        
+    </main>
 
-        <section class="skills">
-            <h4>Skills/Languages</h4>
-            <ul>
-                <li data-testid="skill-1">JavaScript</li>
-                <li data-testid="skill-2">React.js</li>
-                <li data-testid="skill-3">Django</li>
-                <li data-testid="skill-4">HTML & CSS(Tailwind)</li>
-                <li data-testid="skill-5">Python</li>
-                <li data-testid="skill-6">GitHub</li>
-                <li data-testid="skill-7">Project Managment</li>
-                <li data-testid="skill-8">UI/UX Design</li>
-                <li data-testid="skill-9">Freelance</li>
-            </ul>
-        </section>
+    <section class="tools">
+        <h2>Skills</h2>
+        <h3>[Languages]</h3>
+        <ul class="skills">
+            <li data-testid="skill-1">JavaScript</li>
+            <li data-testid="skill-5">Python</li>
+            <li>HTML 5 and CSS</li>
+            <li>Java</li>
+            <li>TypeScript</li>
+        </ul>
+        <h3>[Frameworks and Tools]</h3>
+        <ul class="skills">
+            <li data-testid="skill-2">React.js</li>
+            <li data-testid="skill-3">Django</li>
+            <li data-testid="skill-4">Tailwind</li>
+            <li data-testid="skill-6">GitHub</li>
+            <li data-testid="skill-7">Project Management (Agile methodologies)</li>
+            <li data-testid="skill-8">UI/UX Design</li>
+        </ul>
+    </section>
 
-        <section id="projects" class="projects">
-            <h4>Projects</h4>
+    <section>
+        <div class="header">
+            <h2>Experience</h2>
+        </div>
+        <div class="experience">
+            <h4>Intern <span>Easy Topup NG</span></h4>
+            <p>Developed a CMS website using wordpress to provide subscribtion service.</p>
+
+            <h4>Intern <span>Heritage IT Support</span></h4>
+            <!-- <p>Implemented data-driven strategies that reduced operational costs by 10% and enhanced customer satisfaction through predictive analytics.</p> -->
+
+            <h4>Fellowship <span>ALX</span></h4>
+            <!-- <p>Implemented data-driven strategies that reduced operational costs by 10% and enhanced customer satisfaction through predictive analytics.</p> -->
+
+            <h4>Fellowship <span>HeadStarter</span></h4>
+            <!-- <p>Implemented data-driven strategies that reduced operational costs by 10% and enhanced customer satisfaction through predictive analytics.</p> -->
+        </div>
+       
+    </section>
+
+    <section id="projects" class="projects">
+
+            <h2>Featured Projects</h2>
+            <p>Here are some of the exciting projects I've worked on:</p>
             <div class="project" data-testid="project-1">
-                <h5>Project One(car e-commerce)</h5>
+                <h4>Project One(car e-commerce)</h4>
                 <p> <h6>Developed an advanced e-commerce platform for the automotive market, facilitating the seamless buying, selling, and renting of cars. Utilizing Django for the backend, Figma for the design, and Bootstrap for responsive front-end development, this project showcases my ability to integrate powerful frameworks and design tools to create a user-friendly and functional web application.</h6></p>
                 <img src="" alt="">
                 <a href="https://github.com/your-profile/project-one" target="_blank">View on GitHub</a>
             </div>
 
             <div class="project" data-testid="project-2">
-                <h5>Project Two(Design of a Student Planning / Organization App)</h5>
+                <h4>Project Two(Design of a Student Planning / Organization App)</h4>
                 <p><h6>Designed an intuitive app to help students manage their organization, planning, and scheduling tasks efficiently, based on comprehensive UX/UI research and design principles</h6></p>
                 <img src="" alt="">
                 <a href="https://github.com/your-profile/project-two" target="_blank">View on GitHub</a>
             </div>
-         
-        </section>
+    </section>
 
-        <!-- <section class="goals" id="goals">
-            <h4>My Goals for the Next 2 Years</h4>
-            <ul>
-                <li data-testid="goal-1">Learn and master React.js</li>
-                <li data-testid="goal-2">Contribute to open source projects</li>
-                <li data-testid="goal-3">Build  personal projects and launch them</li>
-                <li data-testid="goal-4">Have a solid developmemnt team</li>
-                <li data-testid="goal-5">Complete 2-3 Internships before graduating </li>
-                <li data-testid="goal-6">Get my first freelance Job </li>
-                <li data-testid="goal-7">Get certified in AWS</li>
-                <li data-testid="goal-8">Improve my algorithm and data structure skills</li>
-                <li data-testid="goal-9">Finish my software engineering degree</li>
-                <li data-testid="goal-10">achieve certification in cybersecurity</li>
-            </ul>
-        </section> -->
-    </main>
+    <section>
+        <h2>AI Resources</h2>
+        <p>Here are some AI resources that I recommend:</p>
+        <ul class="resources-list">
+            <li><a href="https://www.tensorflow.org/">TensorFlow</a> - An open-source platform for machine learning.</li>
+            <li><a href="https://www.kaggle.com/">Kaggle</a> - A platform for data science competitions and datasets.</li>
+        </ul>
+    </section>
+
+       
     <footer>
-        <div class="container">
+        <!-- <div class="container"> -->
             <p>Connect with me:</p>
             <ul class="social-links">
                 <li><a href="https://www.linkedin.com/in/abdulthedev" target="_blank" data-testid="linkedin-link">LinkedIn</a></li>
@@ -117,7 +135,7 @@
                 <li><a href="https://twitter.com/your-profile" target="_blank" data-testid="twitter-link">Twitter</a></li>
             </ul>
 
-        </div>
+        <!-- </div> -->
     </footer>
     <script src="script.js"></script> 
 </body>

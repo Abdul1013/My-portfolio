@@ -5,6 +5,10 @@
 }
 
 body {
+    font-family: 'Old Standard TT', serif;
+    line-height: 1.6;
+    /* background: #f4f4f4; */
+    color: #333;
   font-family: "Old Standard TT", serif;
   line-height: 1.6;
   /* background: #f4f4f4; */
@@ -17,14 +21,16 @@ body {
   overflow: hidden;
 }
 
-a {
+a  {
   color: #9ba8ab;
   text-decoration: none;
 }
 
+
 li {
   list-style-type: none;
 }
+
 
 header {
   display: flex;
@@ -35,6 +41,11 @@ header {
   min-height: 70px;
   border-bottom: #77aacc 3px solid;
 }
+
+header h1 {
+    text-align: left;
+    /* margin: 0 auto; */
+    align-items: left;
 
 header h1 {
   text-align: left;
@@ -51,6 +62,7 @@ header .container {
 nav{
     margin-left: 600px;
 }
+
 .nav-links {
   display: flex;
   list-style: none;
@@ -68,8 +80,9 @@ nav{
 }
 
 .nav-links a:hover {
-  color: #77aacc;
+  color: #77aacc;;
 }
+
 
 .hamburger {
   display: none;
@@ -87,6 +100,7 @@ nav{
   transition: 0.4s;
 }
 
+
 .profile-picture {
   /* width: 100%; */
   max-width: 400px;
@@ -101,11 +115,18 @@ main {
 }
 
 section {
+    margin: 0px 5px;
+    padding: 20px 0;
+    height: 100vh;
+}
+
+section {
   margin: 0px 5px;
   padding: 20px 0;
 }
 
-.datetime {
+
+.datetime  {
   background-color: #77aacc;
   border-radius: 15%;
 }
@@ -136,10 +157,30 @@ section {
   /* box-sizing: border-box; */
   /* margin-left: -200px; */
   /* width: auto; */
+
+.banner {
+    border: 2px dotted #7a7a52;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
+
+.banner1 {
+    flex: 1;
+    padding: 50px;
+    padding-left: -200px;
+    box-sizing: border-box;
+    /* margin-left: -200px; */
+    width: auto;
+}
+
 
 .title {
   text-align: center;
+    text-align: center;
 }
 .tools {
   /* margin-top: 80px; */
@@ -209,10 +250,19 @@ footer {
   border-top: #77aacc 3px solid;
   /* margin-bottom: 0px; */
   bottom: 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: #77aacc 3px solid;
+    /* margin-bottom: 0px; */
+    bottom: 0;
 }
 
 .social-links {
   list-style-type: none;
+.social-links {
+    list-style-type: none;
 }
 
 .social-links li {

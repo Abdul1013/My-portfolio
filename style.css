@@ -46,7 +46,7 @@ header h1 {
 }
 .hero {
   height: 100vh;
-  /* margin-bottom: 200px; */
+  
 }
 nav {
   margin-left: auto;
@@ -363,7 +363,7 @@ button:hover {
   }
 
   .tools {
-    margin-top: 250px;
+    margin-top: 200px;
   }
 }
 
@@ -413,7 +413,10 @@ button:hover {
   .projects {
     flex-direction: column;
   }
-
+  .hero {
+    min-height: 100vh;
+    
+  }
 
 
   footer {

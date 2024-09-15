@@ -46,7 +46,7 @@ header h1 {
 }
 .hero {
   height: 100vh;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
 }
 nav {
   margin-left: auto;
@@ -124,6 +124,26 @@ section {
 .tools {
   color: #8b6c5c;
 }
+.ul {
+  display: flex;
+  /* border: #333 solid 2px; */
+  justify-content: space-evenly;
+
+ 
+}
+ul div{
+  border: #7a7a52 1px solid;
+  padding: 10px;
+  width: 350px;
+  margin: 10px;
+}
+
+  ul div li{
+  list-style-type:square;
+  margin: 5px ;
+
+   }
+
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -138,6 +158,10 @@ section {
 }
 h2 {
   text-align: center;
+}
+.project-section, .tools{
+  margin: 0 10px;
+  padding: 0 10px;
 }
 .projects {
   display: flex;

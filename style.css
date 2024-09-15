@@ -8,11 +8,13 @@ body {
   font-family: "Old Standard TT", serif;
   line-height: 1.6;
   color: #333;
+  background-color: #ddd;
 }
 
 a {
-  color: #ddd;
+  color: #77aacc;
   text-decoration: none;
+  cursor: pointer;
 }
 
 li {
@@ -135,18 +137,17 @@ section {
   text-align: center;
 }
 h2 {
-  text-align: left;
+  text-align: center;
 }
 .projects {
   display: flex;
-  /* border: #333 2px solid; */
+
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex-grow: 2;
-  /* align-items: center; */
-  /* justify-items: center; */
+ 
   margin: auto;
-  padding: 10px;
+  
 }
 .projects img {
   width: 300px;
@@ -161,17 +162,46 @@ h2 {
   text-decoration-color: #77aacc;
   text-decoration-thickness: 2px;
 }
-.projects span {
-  display: flex;
-}
+
 .project{
   margin: auto ;
   margin-bottom: 5px;
   padding: 10px;
-  /* border: 2px solid #7a7a52; */
-  background-color: #77aacc;
+  border: 2px solid #77aacc;
+  /* background-color: #77aacc; */
   border-radius: 10px;
+  /* transition: ease-in; */
+  width: 550px;
+  /* height: 200px; */
 }
+.project:hover {
+  animation: example 1s ease-in ;
+}
+
+
+@keyframes example {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
+.projects span {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.project .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 5px;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  margin: auto; */
+
+}
+
 
 button {
   background-color: #7a7a52;

@@ -128,21 +128,18 @@ section {
   display: flex;
   /* border: #333 solid 2px; */
   justify-content: space-evenly;
-
- 
 }
-ul div{
+ul div {
   border: #7a7a52 1px solid;
   padding: 10px;
   width: 350px;
   margin: 10px;
 }
 
-  ul div li{
-  list-style-type:square;
-  margin: 5px ;
-
-   }
+ul div li {
+  list-style-type: square;
+  margin: 5px;
+}
 
 .skills {
   display: flex;
@@ -159,19 +156,18 @@ ul div{
 h2 {
   text-align: center;
 }
-.project-section, .tools{
+.project-section,
+.tools {
   margin: 0 10px;
   padding: 0 10px;
 }
 .projects {
   display: flex;
-
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex-grow: 2;
- 
+
   margin: auto;
-  
 }
 .projects img {
   width: 300px;
@@ -187,8 +183,8 @@ h2 {
   text-decoration-thickness: 2px;
 }
 
-.project{
-  margin: auto ;
+.project {
+  margin: auto;
   margin-bottom: 5px;
   padding: 10px;
   border: 2px solid #77aacc;
@@ -199,14 +195,19 @@ h2 {
   /* height: 200px; */
 }
 .project:hover {
-  animation: example 1s ease-in ;
+  animation: example 1s ease-in;
 }
 
-
 @keyframes example {
-  0% { transform: translateX(0); }
-  50% { transform: translateX(10px); }
-  100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 .projects span {
   display: flex;
@@ -223,9 +224,7 @@ h2 {
   align-items: center;
   justify-items: center;
   margin: auto; */
-
 }
-
 
 button {
   background-color: #7a7a52;
@@ -282,7 +281,8 @@ footer {
   margin-bottom: 20px;
 }
 
-.contact-form, .subscription-form {
+.contact-form,
+.subscription-form {
   max-width: 800px;
   width: 100%;
   padding: 10px;
@@ -292,11 +292,13 @@ footer {
   margin: 10px;
 }
 
-.contact-form h4, .subscription-form h4 {
+.contact-form h4,
+.subscription-form h4 {
   color: #77aacc;
 }
 
-.contact-form input, .contact-form textarea,
+.contact-form input,
+.contact-form textarea,
 .subscription-form input {
   width: 100%;
   padding: 10px;
@@ -321,9 +323,12 @@ button:hover {
   background-color: #5599cc;
 }
 
-
-
 @media (max-width: 768px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .nav-links {
     display: none;
     flex-direction: column;
@@ -365,8 +370,36 @@ button:hover {
 @media (max-width: 480px) {
   html,
   body {
-    overflow: hidden;
+    overflow-x: hidden;
     max-width: 100vw;
+  }
+  .ul {
+    display: flex;
+    flex-direction: column;
+    /* border: #333 solid 2px; */
+    /* justify-content: space-evenly; */
+  }
+  ul div {
+    border: #7a7a52 1px solid;
+    padding: 10px;
+    width: 350px;
+    margin: 10px;
+  }
+
+  .projects img {
+    width: 100px;
+    height: 50px;
+  }
+  .project {
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 2px solid #77aacc;
+   
+    border-radius: 10px;
+
+    width: 350px;
+  
   }
 
   .hamburger {

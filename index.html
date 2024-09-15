@@ -214,9 +214,34 @@
           <li><a href="#">Twitter</a></li>
           <li><a href="#">LinkedIn</a></li>
           <li><a href="#">GitHub</a></li>
+          <li><a href="#">Discord</a></li>
         </ul>
+      
+        <div class="footer-content">
+          <div class="contact-form">
+            <h4>Contact Me</h4>
+            <form id="contactForm">
+              <input type="text" id="contactName" placeholder="Your Name" required>
+              <input type="email" id="contactEmail" placeholder="Your Email" required>
+              <textarea id="contactMessage" placeholder="Your Message" rows="4" required></textarea>
+              <button type="submit">Send Message</button>
+              <p id="contactSuccessMsg" style="display:none; color: #77aacc;">Message sent successfully!</p>
+            </form>
+          </div>
+      
+          <div class="subscription-form">
+            <h4>Subscribe to our Newsletter</h4>
+            <form id="subscriptionForm">
+              <input type="email" id="subscriptionEmail" placeholder="Your Email" required>
+              <button type="submit">Subscribe</button>
+              <p id="subscribeSuccessMsg" style="display:none; color: #77aacc;">Subscribed successfully!</p>
+            </form>
+          </div>
+        </div>
+      
         <p>&copy; 2024 Abdulrasheed Olabanji</p>
       </footer>
+      
     </div>
 
     <script src="script.js"></script>

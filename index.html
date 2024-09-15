@@ -12,119 +12,185 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>Abdulthedev</h1>
-        <nav>
-          <div class="hamburger" data-testid="hamburger-menu">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-          </div>
-          <ul class="nav-links">
-            <li><a href="#goals">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </nav>
-      </header>
-
-      <main>
-        <section id="time-info" class="datetime">
-          <p>
-            Current Time (UTC):
-            <span id="datetime" data-testid="currentTimeUTC"></span>
-          </p>
-          <p>
-            Today is: <span id="current-day" data-testid="currentDay"></span>
-          </p>
-        </section>
-
-        <section class="about">
-          <h1 class="title">DESIGN * DEVELOP * INSPIRE</h1>
-          <div class="banner">
-            <div class="banner1">
-              <img
-                src="IMG_3409A36BE89B-1.jpeg"
-                alt="Profile Picture"
-                class="profile-picture"
-                data-testid="slackprofilepicture"
-              />
+      <div class="hero">
+        <header>
+          <h1>Abdulthedev</h1>
+          <nav>
+            <div class="hamburger" data-testid="hamburger-menu">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
             </div>
-            <div class="banner1">
-              <h1>Hi there</h1>
-              <h3>I am Abdulrasheed Olabanji</h3>
-              <h5>
-                I am a Junior Software Engineer with a diverse set of skills in
-                both frontend and backend development, API integration, and
-                deployment. My expertise spans from building responsive,
-                user-friendly interfaces to designing robust backend systems
-                that drive applications. I’m particularly passionate about AI
-                engineering and have hands-on experience working with
-                state-of-the-art AI tools and frameworks.
-              </h5>
-              <div class="button">
-                <button><a href="#">Contact</a></button>
-                <button>
-                  <a href="my_resume.pdf" download>Download CV</a>
-                </button>
+            <ul class="nav-links">
+              <li><a href="#goals">Home</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <main>
+          <section id="time-info" class="datetime">
+            <p>
+              Current Time (UTC):
+              <span id="datetime" data-testid="currentTimeUTC"></span>
+            </p>
+            <p>
+              Today is: <span id="current-day" data-testid="currentDay"></span>
+            </p>
+          </section>
+
+          <section class="about">
+            <h1 class="title">DESIGN * DEVELOP * INSPIRE</h1>
+            <div class="banner">
+              <div class="banner1">
+                <img
+                  src="IMG_3409A36BE89B-1.jpeg"
+                  alt="Profile Picture"
+                  class="profile-picture"
+                  data-testid="slackprofilepicture"
+                />
+              </div>
+              <div class="banner1">
+                <h1>Hi there</h1>
+                <h3>I am Abdulrasheed Olabanji</h3>
+                <h5>
+                  I am a Junior Software Engineer with a diverse set of skills
+                  in both frontend and backend development, API integration, and
+                  deployment. My expertise spans from building responsive,
+                  user-friendly interfaces to designing robust backend systems
+                  that drive applications. I’m particularly passionate about AI
+                  engineering and have hands-on experience working with
+                  state-of-the-art AI tools and frameworks.
+                </h5>
+                <div class="button">
+                  <button><a href="#">Contact</a></button>
+                  <button>
+                    <a href="my_resume.pdf" download>Download CV</a>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </main>
+      </div>
 
-        <section class="tools">
-          <h2>Skills</h2>
-          <h3>[Languages]</h3>
-          <ul class="skills">
-            <li data-testid="skill-1">JavaScript</li>
-            <li data-testid="skill-5">Python</li>
-            <li>HTML 5 and CSS</li>
-            <li>Java</li>
-            <li>TypeScript</li>
-          </ul>
-          <h3>[Frameworks and Tools]</h3>
-          <ul class="skills">
-            <li data-testid="skill-2">React.js</li>
-            <li data-testid="skill-3">Django</li>
-            <li data-testid="skill-4">Tailwind</li>
-            <li data-testid="skill-6">GitHub</li>
-            <li data-testid="skill-7">
-              Project Management (Agile methodologies)
-            </li>
-            <li data-testid="skill-8">UI/UX Design</li>
-          </ul>
-        </section>
+      <section class="tools">
+        <h2>Skills</h2>
+        <h3>[Languages]</h3>
+        <ul class="skills">
+          <li data-testid="skill-1">JavaScript</li>
+          <li data-testid="skill-5">Python</li>
+          <li>HTML 5 and CSS</li>
+          <li>Java</li>
+          <li>TypeScript</li>
+        </ul>
+        <h3>[Frameworks and Tools]</h3>
+        <ul class="skills">
+          <li data-testid="skill-2">React.js</li>
+          <li data-testid="skill-3">Django</li>
+          <li data-testid="skill-4">Tailwind</li>
+          <li data-testid="skill-6">GitHub</li>
+          <li data-testid="skill-7">
+            Project Management (Agile methodologies)
+          </li>
+          <li data-testid="skill-8">UI/UX Design</li>
+        </ul>
+      </section>
 
-        <section id="projects" class="projects">
-          <h2>Featured Projects</h2>
-          <p>Here are some of the exciting projects I've worked on:</p>
-          <div class="project" data-testid="project-1">
+      <section class="project-section">
+        <h2>Featured Projects</h2>
+        <p>Here are some of the exciting projects I've worked on:</p>
+        <div class="projects">
+          <div class="project">
             <h4>Car E-commerce Platform</h4>
+            <span>
+              <img src="offshore.png" />
+              <li>Django</li>
+              <li>BootStrap</li>
+              <li>SQlite</li>
+              <li>Html</li>
+            </span>
             <p>
               Developed an advanced e-commerce platform for the automotive
               market...
             </p>
+
             <a
               href="https://github.com/your-profile/project-one"
               target="_blank"
               >View on GitHub</a
             >
           </div>
-          <div class="project" data-testid="project-2">
+          <div class="project" data-testid="project">
             <h4>Student Planning App</h4>
+            <span>
+              <img src="plannerz.png" />
+              <li>Next JS</li>
+              <li>Groq AI</li>
+              <li>Material UI</li>
+              <li></li>
+            </span>
             <p>
               Designed an intuitive app to help students manage their
               organization, planning...
             </p>
+
             <a
               href="https://github.com/your-profile/project-two"
               target="_blank"
               >View on GitHub</a
             >
           </div>
-        </section>
-      </main>
+          <div class="project" data-testid="project">
+            <h4>StudyHub</h4>
+            <span>
+              <img src="studyhub.png " />
+              <li>Next JS</li>
+              <li>Groq AI</li>
+              <li>Material UI</li>
+              <li></li>
+            </span>
+            <p>
+              Developed an advanced e-commerce platform for the automotive
+              market...
+            </p>
+
+            <a
+              href="https://github.com/your-profile/project-two"
+              target="_blank"
+              >View on GitHub</a
+            >
+            <a
+              href="https://github.com/your-profile/project-two"
+              target="_blank"
+              >Visit Live Page</a
+            >
+          </div>
+          <div class="project" data-testid="project">
+            <h4>BiteBuzz</h4>
+            <span>
+              <img src="bittbuzz.png" />
+              <li>Next JS</li>
+              <li>Groq AI</li>
+              <li>Material UI</li>
+              <li></li>
+            </span>
+            <p>
+              Developed an advanced e-commerce platform for the automotive
+              market...
+            </p>
+
+            <a
+              href="https://github.com/your-profile/project-two"
+              target="_blank"
+              >View on GitHub</a
+            >
+          </div>
+        </div>
+        <h3>Other Projects</h3>
+      </section>
 
       <footer>
         <ul class="social-links">

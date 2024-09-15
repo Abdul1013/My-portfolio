@@ -363,7 +363,7 @@ button:hover {
   }
 
   .tools {
-    margin-top: 120px;
+    margin-top: 200px;
   }
 }
 
@@ -376,8 +376,6 @@ button:hover {
   .ul {
     display: flex;
     flex-direction: column;
-    /* border: #333 solid 2px; */
-    /* justify-content: space-evenly; */
   }
   ul div {
     border: #7a7a52 1px solid;
@@ -395,11 +393,8 @@ button:hover {
     margin-bottom: 5px;
     padding: 10px;
     border: 2px solid #77aacc;
-   
     border-radius: 10px;
-
     width: 350px;
-  
   }
 
   .hamburger {
@@ -419,14 +414,17 @@ button:hover {
     flex-direction: column;
   }
 
-  .tools {
-    /* margin-top: 340px; */
-  }
+
 
   footer {
     display: flex;
     flex-direction: column;
     height: auto;
     margin-bottom: auto;
+  }
+  footer button {
+    width: 50%;
+    padding: 10px;
+    cursor: pointer;
   }
 }

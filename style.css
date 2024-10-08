@@ -187,8 +187,9 @@ h2 {
   margin: auto;
   margin-bottom: 5px;
   padding: 10px;
-  border: 2px solid #77aacc;
-  /* background-color: #77aacc; */
+  border: 2px solid #8b6c5c;
+
+  background-color: #77aacc;
   border-radius: 10px;
   /* transition: ease-in; */
   width: 550px;

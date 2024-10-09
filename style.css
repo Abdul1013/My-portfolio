@@ -410,6 +410,7 @@ button:hover {
   .profile-picture {
     width: 100%;
     max-width: 400px;
+    height: auto;
   }
   .projects {
     flex-direction: column;

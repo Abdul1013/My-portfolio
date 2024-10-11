@@ -126,7 +126,6 @@ section {
 }
 .ul {
   display: flex;
-  /* border: #333 solid 2px; */
   justify-content: space-evenly;
 }
 ul div {

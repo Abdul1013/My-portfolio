@@ -1,3 +1,15 @@
+window.onload = function() {
+  const loader = document.getElementById('loader');
+  const content = document.getElementById('content');
+
+  // Hide loader
+  loader.style.display = 'none';
+
+  // Show content with a fade-in effect
+  content.style.display = 'block';
+  setTimeout(() => content.classList.add('show-content'), 100);
+};
+
 function updateDateTime() {
   const now = new Date();
   const currentDateTime = now.toLocaleString();

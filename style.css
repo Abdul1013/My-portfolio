@@ -20,14 +20,22 @@
 
 /* Spin Animation */
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  50%{ transform: rotate(180deg);}
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Hide the content initially */
 #content {
   display: none;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
 }
 
 body {
@@ -72,7 +80,6 @@ header h1 {
 }
 .hero {
   height: 100vh;
-  
 }
 nav {
   margin-left: auto;
@@ -442,9 +449,7 @@ button:hover {
   }
   .hero {
     min-height: 100vh;
-    
   }
-
 
   footer {
     display: flex;

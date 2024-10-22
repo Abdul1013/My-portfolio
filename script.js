@@ -1,13 +1,18 @@
 window.onload = function() {
   const loader = document.getElementById('loader');
   const content = document.getElementById('content');
+  const textElements = document.querySelectorAll('.text');
 
-  // Hide loader
+  
   loader.style.display = 'none';
-
-  // Show content with a fade-in effect
   content.style.display = 'block';
-  setTimeout(() => content.classList.add('show-content'), 100);
+
+ 
+  setTimeout(() => {
+    content.style.opacity = '1';
+    // Add the 'show-text' class to trigger the text fade-in and transform
+    textElements.forEach(el => el.classList.add('show-text'));
+  }, 100);
 };
 
 function updateDateTime() {

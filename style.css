@@ -59,7 +59,7 @@ html {
 
 
 a {
-  color: #77aacc;
+  color: #333;
   text-decoration: none;
   cursor: pointer;
 }
@@ -256,6 +256,15 @@ h2 {
 .project:hover {
   animation: example 1s ease-in;
   /* transform: scale(1.05); */
+}
+.links{
+  border: #7a7a52 solid 1px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #ddd;
+  border-radius: 5px;
+  padding: 2px;
+
 }
 
 @keyframes example {

@@ -278,27 +278,30 @@ h2 {
     transform: translateX(0);
   }
 }
-.projects span {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
+
+.icon-list {
+  display: flex; /* Align items horizontally */
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  gap: 16px; /* Add space between items */
+  justify-content: center; /* Center the icons horizontally */
 }
-.icon-group ul li img {
-  display: flex;
-  flex-direction: row;
+
+
+.project .icon-list li {
+  display: flex; /* Ensures the li behaves as a flex container */
+  align-items: center; /* Aligns icons vertically */
 }
+
+
 .project .icon {
-  width: 30px;
-  height: 30px;
+  width: 30px; /* Adjust the size of the icons */
+  height: 30px; /* Maintain consistent height */
   border-radius: 50%;
-  padding: 5px;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
-  margin: auto; */
+  object-fit: cover; /* Ensures icons maintain proportions */
 }
+
 
 button {
   background-color: #7a7a52;

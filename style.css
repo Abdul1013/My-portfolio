@@ -280,26 +280,26 @@ h2 {
 }
 
 .icon-list {
-  display: flex; /* Align items horizontally */
-  list-style-type: none; /* Remove default bullet points */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
-  gap: 16px; /* Add space between items */
-  justify-content: center; /* Center the icons horizontally */
+  display: flex; 
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+  gap: 16px; 
+  justify-content: center; 
 }
 
 
 .project .icon-list li {
-  display: flex; /* Ensures the li behaves as a flex container */
-  align-items: center; /* Aligns icons vertically */
+  display: flex; 
+  align-items: center; 
 }
 
 
 .project .icon {
-  width: 30px; /* Adjust the size of the icons */
-  height: 30px; /* Maintain consistent height */
+  width: 30px; 
+  height: 30px; 
   border-radius: 50%;
-  object-fit: cover; /* Ensures icons maintain proportions */
+  object-fit: cover; 
 }
 
 
@@ -324,7 +324,6 @@ button:hover {
 }
 
 footer {
-  /* width: 100vw; */
   background: #333;
   color: #fff;
   text-align: center;
@@ -351,10 +350,8 @@ footer {
 .footer-content {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   align-items: center;
   justify-content: center;
-  /* flex-wrap: wrap; */
   margin-bottom: 20px;
 }
 
